@@ -18,15 +18,15 @@ Hemolytic anemia: The production of bilirubin increases when large quantities of
 
 Gilbert's syndrome: This is an inherited condition that impairs the ability of enzymes to process the excretion of bile.
 
-Cholestasis: This interrupts the flow of bile from the liver. The bile containing conjugated bilirubin remains in the liver instead of being excreted.
+Cholestasis : This interrupts the flow of bile from the liver. The bile containing conjugated bilirubin remains in the liver instead of being excreted.
 
-Diagnosis:
+Diagnosis :
 
 The yellowing of skin and eyes are likely to be the main clues a doctor will use before confirming a jaundice diagnosis.
 
 A physical examination will be carried out to look for signs of swelling of the liver and legs, ankles or feet, which might indicate cirrhosis of the liver.Jaundice is treated by managing the underlying cause.
 
-Medication:
+Medication :
 
 Medication or supplements can help jaundice depending on the cause.
 Treatment will depend on the underlying cause.
@@ -35,8 +35,8 @@ Jaundice treatment targets the cause rather than the jaundice symptoms.
 
 The following treatments are used:
 
-Anemia-induced jaundice may be treated by boosting the amount of iron in the blood by either taking iron supplements or eating more iron-rich foods.
-Hepatitis-induced jaundice requires antiviral or steroid medications.
-Doctors can treat obstruction-induced jaundice by surgically removing the obstruction.
+• Anemia-induced jaundice may be treated by boosting the amount of iron in the blood by either taking iron supplements or eating more iron-rich foods.
+• Hepatitis-induced jaundice requires antiviral or steroid medications.
+• Doctors can treat obstruction-induced jaundice by surgically removing the obstruction.
 
 If the jaundice has been caused by use of a medication, treatment for involves changing to an alternative medication.

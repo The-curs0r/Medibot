@@ -1,0 +1,24 @@
+.HomeDiv{
+	background-color: #cccccc;
+	height: 94.3vh;
+	color:#bebebe;
+	background-attachment: fixed;
+	text-align: center;
+	background-image: url('./HomeBG.jpg');
+}
+.HomeDivHead{
+	padding-top: 60px;
+	padding-right: 20px;
+	font-family: Roboto;
+	font-size: 80px;
+}
+.HomeDivHead2{
+	padding-top: 60px;
+	padding-right: 20px;
+	font-family: Roboto;
+	font-size: 40px;
+}
+.btnTry{
+	margin-top: 60px;
+	margin-right: 20px;
+}

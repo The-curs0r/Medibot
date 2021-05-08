@@ -9,32 +9,6 @@ class mediBot extends Component {
 		super();
 		this.state = {
 				symptoms: [0,0,0,0,0,0,0,0,0,0,0,0,0],
-				fever:0,
-				fever_sev:null,
-				back_pain :0,
-				back_pain_sev:null,
-				chest_pain :0,
-				chest_pain_sev :null,
-				cough :0,
-				cough_sev :null,
-				fainting :0,
-				fainting_sev :null,
-				sore_throat :0,
-				sore_throat_sev :null,
-				fatigue :0,
-				fatigue_sev  :null,
-				low_body_temp :0,
-				low_body_temp_sev :null,
-				sunken_eyes :0,
-				sunken_eyes_sev :null,
-				nausea :0,
-				nausea_sev :null,
-				blurred_vision :0,
-				blurred_vision_sev :null,
-				headache :0,
-				headache_sev :null,
-				restlessness :0,
-				restlessness_sev :null,
 				disease:null
 		};
 	}
@@ -49,25 +23,56 @@ class mediBot extends Component {
 			this.setState({disease:response.data},function() { console.log(this.state.disease) })
 		})
 	}
-	updateSymptom = (index) => {
+	updateSymptom = (index, value) => {
 		var ind = index ;
 		var symptomsUpdated = this.state.symptoms;
-		symptomsUpdated[ind] = symptomsUpdated[ind]===0?1:0;
+		symptomsUpdated[ind] = value;
 		this.setState({symptoms:symptomsUpdated},function() { console.log(this.state.symptoms[ind]) });
 	}
+	searchDisease = (event,value) => {
+		let mapsURL = "http://maps.google.com/?q="+value+" doctors near me";
+		window.open(encodeURI(mapsURL), "_blank")
+	}
+	//headache, back_pain, chest_pain, cough, fainting, sore_throat, fatigue, restlessness,low_body_temp ,fever ,sunken_eyes ,nausea ,blurred_vision
 render(){
 	const elements = ['Headache', 'Back Pain', 'Chest Pain','Cough','Fainting','Fatigue','Sunken Eyes','Low Body Temp','Restlessness','Sore Throat','Fever','Nausea','Blurred Vision'];
+
+	var perfMatch = this.state.disease == null ? null : String(this.state.disease).charAt(0)
+	
+	let [first, ...rest] = String(this.state.disease).substring(1).split('.')
+	rest = rest.join('.')
+
+
 	return (
 		<div className="Main">
+			<h1>
+				Mark your symptoms and their severity
+			</h1>
 			<div className="Symptoms">
 				{elements.map((type,index) => (
 					<Symptom updateSymptom={this.updateSymptom} name={type} index={index} key={index} />
 				))}
 			</div>
-			<Button variant="dark" onClick={this.predictDisease}>Estimate Disease</Button>
+			<Button className="btnEstimate" variant="light" onClick={this.predictDisease}>Estimate Disease</Button>
+			{this.state.disease == null ? null : <div className="resultsDiv">
+				<h2>
+				{
+					( perfMatch === "0" ? "You don't have any symptoms and are perfectly healthy.":
+					perfMatch==="1"? "Your symptoms match "+first:
+						"You might be suffering from "+first) }
+				</h2>
+				{
+					perfMatch === "0" ? null:
+					<div>
+					<p className="resultsDivText">
+						{rest}
+					</p>
+					{<Button variant="light" onClick={(e)=>this.searchDisease(e,first)}>Search for {first} doctors near you</Button>}
+					</div>
+				}
+			</div>}
 		</div>
 	);
-
 }
 		
 }

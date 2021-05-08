@@ -4,12 +4,12 @@ The term "heart disease" is often used interchangeably with the term "cardiovasc
 
 Heart disease encompasses a wide range of cardiovascular problems. Several diseases and conditions fall under the umbrella of heart disease. Types of heart disease include:
 
-Arrhythmia: An arrhythmia is a heart rhythm abnormality.
-Atherosclerosis: Atherosclerosis is a hardening of the arteries.
-Cardiomyopathy: This condition causes the heart’s muscles to harden or grow weak.
-Congenital heart defects: Congenital heart defects are heart irregularities that are present at birth.
-Coronary artery disease (CAD): CAD is caused by the buildup of plaque in the heart’s arteries. It’s sometimes called ischemic heart disease.
-Heart infections: Heart infections may be caused by bacteria, viruses, or parasites.
+• Arrhythmia: An arrhythmia is a heart rhythm abnormality.
+• Atherosclerosis: Atherosclerosis is a hardening of the arteries.
+• Cardiomyopathy: This condition causes the heart’s muscles to harden or grow weak.
+• Congenital heart defects: Congenital heart defects are heart irregularities that are present at birth.
+• Coronary artery disease (CAD): CAD is caused by the buildup of plaque in the heart’s arteries. It’s sometimes called ischemic heart disease.
+• Heart infections: Heart infections may be caused by bacteria, viruses, or parasites.
 
 Many forms of heart disease can be prevented or treated with healthy lifestyle choices.
 
@@ -17,39 +17,39 @@ Cardiovascular disease symptoms may be different for men and women.
 
 Causes:
 
-While cardiovascular disease can refer to different heart or blood vessel problems, the term is often used to mean damage to your heart or blood vessels by atherosclerosis, a buildup of fatty plaques in your arteries. 
+• While cardiovascular disease can refer to different heart or blood vessel problems, the term is often used to mean damage to your heart or blood vessels by atherosclerosis, a buildup of fatty plaques in your arteries. 
 
-Plaque buildup thickens and stiffens artery walls, which can inhibit blood flow through your arteries to your organs and tissues.
+• Plaque buildup thickens and stiffens artery walls, which can inhibit blood flow through your arteries to your organs and tissues.
 
-Atherosclerosis is also the most common cause of cardiovascular disease. It can be caused by correctable problems, such as an unhealthy diet, lack of exercise, being overweight and smoking
+• Atherosclerosis is also the most common cause of cardiovascular disease. It can be caused by correctable problems, such as an unhealthy diet, lack of exercise, being overweight and smoking
 
 Common causes of abnormal heart rhythms (arrhythmias) or conditions that can lead to arrhythmias include:
 
-Heart defects since birth
-Coronary artery disease
-High blood pressure
-Diabetes
-Smoking
-Excessive use of alcohol or caffeine
-Drug abuse
-Stress
-Some over-the-counter medications, prescription medications, dietary supplements and herbal remedies
-Valvular heart diseasePrevention:
+• Heart defects since birth
+• Coronary artery disease
+• High blood pressure
+• Diabetes
+• Smoking
+• Excessive use of alcohol or caffeine
+• Drug abuse
+• Stress
+• Some over-the-counter medications, prescription medications, dietary supplements and herbal remedies
+• Valvular heart diseasePrevention:
 
 Certain types of heart disease, such as heart defects, can't be prevented. However, you can help prevent many other types of heart disease by making the same lifestyle changes that can improve your heart disease, such as:
 
-Quit smoking
-Control other health conditions, such as high blood pressure, high cholesterol and diabetes
-Exercise at least 30 minutes a day on most days of the week
-Eat a diet that's low in salt and saturated fat
-Maintain a healthy weight
-Reduce and manage stress
-Practice good hygiene
+• Quit smoking
+• Control other health conditions, such as high blood pressure, high cholesterol and diabetes
+• Exercise at least 30 minutes a day on most days of the week
+• Eat a diet that's low in salt and saturated fat
+• Maintain a healthy weight
+• Reduce and manage stress
+• Practice good hygiene
 
 Medications:
 
-ACE Inhibitors
-Antiarrhythmics
-Beta-Blocker Therapy
-Digoxin
-Diuretics
+• ACE Inhibitors
+• Antiarrhythmics
+• Beta-Blocker Therapy
+• Digoxin
+• Diuretics

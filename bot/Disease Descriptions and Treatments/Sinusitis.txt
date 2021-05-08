@@ -8,9 +8,9 @@ Excess mucus is common if you have a cold or allergies. This mucus buildup can b
 
 You may be at increased risk of getting sinusitis if you have:
 
-Hay fever or another allergic condition that affects your sinuses
-A nasal passage abnormality, such as a deviated nasal septum, nasal polyps or tumors
-A medical condition such as cystic fibrosis or an immune system disorder such as HIV/AIDS
+• Hay fever or another allergic condition that affects your sinuses
+• A nasal passage abnormality, such as a deviated nasal septum, nasal polyps or tumors
+• A medical condition such as cystic fibrosis or an immune system disorder such as HIV/AIDS
 
 Diagnosis:
 
@@ -20,7 +20,7 @@ Purulent (pus like) drainage from the nasal passages (the symptom most likely to
 
 Tenderness to percussion (tapping) over the cheeks or forehead region of the sinuses
 
-Swelling about the eyes and cheeks.Prevention:
+Swelling about the eyes and cheeks. Prevention :
 
 Take these steps to help reduce your risk of getting acute sinusitis:
 
@@ -32,7 +32,7 @@ Avoid cigarette smoke and polluted air. Tobacco smoke and other pollutants can i
 
 Use a humidifier. If the air in your home is dry, such as it is if you have forced-air heat, adding moisture to the air may help prevent sinusitis. Be sure the humidifier stays clean and free of mold with regular, thorough cleaning.
 
-Treatment:
+Treatment :
 
 Using a nasal decongestant spray, such as oxymetazoline, can help relieve sinus infection symptoms short-term.
 
@@ -40,8 +40,7 @@ Other over-the-counter medicines that contain antihistamines and decongestants c
 
 Medications:
 
-Sudafed
-Zyrtec
-Allegra
-Claritin
-
+• Sudafed
+• Zyrtec
+• Allegra
+• Claritin

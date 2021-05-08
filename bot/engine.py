@@ -19,7 +19,7 @@ def load_data():
 			info_disease[disease] = disease_s_data
 
 def disease_named(matched_disease):
-	print(matched_disease)
+	print(matched_disease+".")
 	matched_disease_info = info_disease[matched_disease]
 	print(matched_disease_info+"\n")
 
@@ -351,8 +351,8 @@ class StartEngine(KnowledgeEngine):
 			Fact(disease=MATCH.disease),
 			salience = -2)
 	def disease(self, disease):
-		print(0)
-		print(disease)
+		print(1)
+		print(disease+".")
 		disease = info_disease[disease]
 		print(disease+"\n")
 
@@ -379,24 +379,26 @@ class StartEngine(KnowledgeEngine):
 			if(simp_list[i] == '0'):
 				no_simp = no_simp + 1
 		if(no_simp == len(simp_list)):
-			print(-1)
+			print(0)
 			return
-		print(1)
-
-		count_max = 0
+		print(2)
 		max_disease = ""
-		
+		min_heuristic = 100000000000
 		for key,val in symptom_disease.items():
 			count = 0
+			heuristic = 0
 			temp_simp = eval(key)
 			for i in range(0,len(simp_list)):
-				if(temp_simp[i] == simp_list[i] and simp_list[i] == '1'):
-					count = count + 1
-			if count > count_max:
-				count_max = count
+				if(temp_simp[i] == '0'):
+					heuristic=heuristic+2.0*(int(simp_list[i]))
+				elif(simp_list[i] == '0'):
+					heuristic=heuristic+0.5*(int(temp_simp[i]))
+				else:
+					heuristic=heuristic+1.0*(abs(int(temp_simp[i])-int(simp_list[i])))
+			if heuristic<min_heuristic:
 				max_disease = val
+				min_heuristic=heuristic
 		disease_named(max_disease)
-
 if __name__ == "__main__":
 	load_data()
 	engine = StartEngine()
