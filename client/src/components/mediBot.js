@@ -36,13 +36,9 @@ class mediBot extends Component {
 	//headache, back_pain, chest_pain, cough, fainting, sore_throat, fatigue, restlessness,low_body_temp ,fever ,sunken_eyes ,nausea ,blurred_vision
 render(){
 	const elements = ['Headache', 'Back Pain', 'Chest Pain','Cough','Fainting','Fatigue','Sunken Eyes','Low Body Temp','Restlessness','Sore Throat','Fever','Nausea','Blurred Vision'];
-
 	var perfMatch = this.state.disease == null ? null : String(this.state.disease).charAt(0)
-	
 	let [first, ...rest] = String(this.state.disease).substring(1).split('.')
 	rest = rest.join('.')
-
-
 	return (
 		<div className="Main">
 			<h1>
@@ -53,7 +49,7 @@ render(){
 					<Symptom updateSymptom={this.updateSymptom} name={type} index={index} key={index} />
 				))}
 			</div>
-			<Button className="btnEstimate" variant="light" onClick={this.predictDisease}>Estimate Disease</Button>
+			<Button className="btnEstimate" variant="light" onClick={this.predictDisease}>Match Disease</Button>
 			{this.state.disease == null ? null : <div className="resultsDiv">
 				<h2>
 				{
@@ -74,6 +70,5 @@ render(){
 		</div>
 	);
 }
-		
 }
 export default mediBot;

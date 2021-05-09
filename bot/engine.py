@@ -31,79 +31,79 @@ class StartEngine(KnowledgeEngine):
 			NOT(Fact(headache=W())),
 			salience = 1)
 	def symptom_0(self):
-		self.declare(Fact(headache=sys.argv[1]))
+		self.declare(Fact(headache=('0' if sys.argv[1]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(back_pain=W())),
 			salience = 1)
 	def symptom_back_pain(self):
-		self.declare(Fact(back_pain=sys.argv[2]))
+		self.declare(Fact(back_pain=('0' if sys.argv[2]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(chest_pain=W())),
 			salience = 1)
 	def symptom_chest_pain(self):
-		self.declare(Fact(chest_pain=sys.argv[3]))
+		self.declare(Fact(chest_pain=('0' if sys.argv[3]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(cough=W())),
 			salience = 1)
 	def symptom_cough(self):
-		self.declare(Fact(cough=sys.argv[4]))
+		self.declare(Fact(cough=('0' if sys.argv[4]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(fainting=W())),
 			salience = 1)
 	def symptom_fainting(self):
-		self.declare(Fact(fainting=sys.argv[5]))
+		self.declare(Fact(fainting=('0' if sys.argv[5]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(fatigue=W())),
 			salience = 1)
 	def symptom_fatigue(self):
-		self.declare(Fact(fatigue=sys.argv[6]))
+		self.declare(Fact(fatigue=('0' if sys.argv[6]=='0' else '1')))
 	 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(sunken_eyes=W())),
 			salience = 1)
 	def symptom_sunken_eyes(self):
-		self.declare(Fact(sunken_eyes=sys.argv[7]))
+		self.declare(Fact(sunken_eyes=('0' if sys.argv[7]=='0' else '1')))
 	
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(low_body_temp=W())),
 			salience = 1)
 	def symptom_low_body_temp(self):
-		self.declare(Fact(low_body_temp=sys.argv[8]))
+		self.declare(Fact(low_body_temp=('0' if sys.argv[8]=='0' else '1')))
 	
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(restlessness=W())),
 			salience = 1)
 	def symptom_restlessness(self):
-		self.declare(Fact(restlessness=sys.argv[9]))
+		self.declare(Fact(restlessness=('0' if sys.argv[9]=='0' else '1')))
 	
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(sore_throat=W())),
 			salience = 1)
 	def symptom_sore_throat(self):
-		self.declare(Fact(sore_throat=sys.argv[10]))
+		self.declare(Fact(sore_throat=('0' if sys.argv[10]=='0' else '1')))
 	
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(fever=W())),
 			salience = 1)
 	def symptom_fever(self):
-		self.declare(Fact(fever=sys.argv[11]))
+		self.declare(Fact(fever=('0' if sys.argv[11]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(nausea=W())),
 			salience = 1)
 	def symptom_nausea(self):
-		self.declare(Fact(nausea=sys.argv[12]))
+		self.declare(Fact(nausea=('0' if sys.argv[12]=='0' else '1')))
 
 	@Rule(Fact(action='match_disease'),
 			NOT(Fact(blurred_vision=W())),
-			salience = 1)
+			salience = 1)	
 	def symptom_blurred_vision(self):
-		self.declare(Fact(blurred_vision=sys.argv[13]))
+		self.declare(Fact(blurred_vision=('0' if sys.argv[13]=='0' else '1')))
 
 	@Rule(  Fact(action='match_disease'),
 			Fact(headache = '0'),
